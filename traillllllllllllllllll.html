@@ -1,0 +1,1085 @@
+ <!DOCTYPE html>
+<html>
+
+<head>
+    <title>
+        <img src="C:\Users\JAY\Desktop\1 logo.png" alt="logo">
+        travel around world !!!
+    </title>
+    <style>
+        header {
+            background-color: #333;
+            transition: 0.5s;
+            top: 0;
+            margin-bottom: 10px;
+        }
+
+        .fun {
+            color: white;
+            margin: 10px;
+            margin-left: 10px;
+            margin-top: -15px;
+            font-size: 25px;
+        }
+
+        .gun {
+            display: inline-block;
+            margin: -4px;
+            font-size: 30px;
+            color: white;
+        }
+
+        .bun {
+            color: aqua;
+
+        }
+
+
+
+        .navigation {
+            margin-left: 10cm;
+            font-size: 17px;
+            
+        }
+
+        .navigation a {
+            margin: 10px;
+            color: white;
+            text-decoration: none;
+        }
+
+        .navigation a:hover {
+            color: aqua;
+            text-decoration: none;
+
+        }
+
+        .line {
+            display: inline-block;
+            margin-bottom: -7px;
+            margin-top: 15px;
+        }
+
+        .search-bar-container {
+            position: absolute;
+            top: 47%;
+            left: 0;
+            right: 0;
+            padding: 5px 370px;
+            display: flex;
+            align-items: center;
+            z-index: 1001;            
+
+        }
+
+        .mind {
+            position: absolute;
+            top: 14%;
+            padding: 5px 525px;
+            display: flex;
+            align-items: center;
+            z-index: 1001;
+            font-size: 85px;
+            color: white;
+            
+
+        }
+
+        .mind p {
+            position: absolute;
+            top: 40%;
+            display: flex;
+            align-items: center;
+            z-index: 1001;
+            margin-left: -25px;
+            margin-top: 41px;
+            font-family: "mistral";
+            font-size: 120px;
+            color: navy;
+
+        }
+
+        .search-bar-container #search-bar {
+            width: 100%;
+            padding: 3px;
+            text-decoration: none;
+            color: black;
+            font-size: large;
+            border-radius: 30px;
+            box-shadow: 2px 12px 22px black;
+
+
+        }
+
+        .search-bar-container label {
+            color: white;
+            cursor: pointer;
+            font-size: 24px;
+            margin-left: 10px;
+            margin-top: 10px;
+        }
+
+        .icon i{
+            margin-top: 17px;
+            margin-left: 55px;
+            font-size: 24px;
+            color: white;
+            cursor: pointer;
+        }
+
+        .icon :hover{
+            color: aqua;
+        }
+
+    
+        .slider-box {
+            width: 100%;
+            height: 700px;
+            margin: -12PX auto;
+            position: relative;
+            overflow: hidden;
+
+        }
+
+
+        #slider {
+            width: 100%;
+            display: inline-flex;
+            transition: 0.7s;
+            z-index: 100;
+
+        }
+
+        #slider img {
+            width: 100%;
+        }
+
+        .indicator {
+            position: absolute;
+            left: 50%;
+            bottom: 50px;
+            transform: translate(-50%);
+        }
+
+        .indicator span {
+            display: inline-block;
+            width: 15px;
+            height: 15px;
+            border-radius: 50%;
+            background: rgba(255, 255, 255, 0.5);
+            cursor: pointer;
+
+        }
+
+        .indicator #btn1 {
+            color: black;
+        }
+
+        .book-now {
+            margin-top: 10px;
+            text-align: center;
+            font-size: 60px;
+        }
+
+        .book-img {
+            margin-left: 4cm;
+        }
+
+        .form {
+            margin-top: -13cm;
+            margin-left: 22cm;
+        }
+
+        .cards {
+            display: inline-block;
+            height: 12cm;
+            width: 21%;
+            background-color: ghostwhite;
+            border-radius: 10px;
+            margin: 19px;
+            cursor: pointer;
+        }
+
+        .cardline {
+            margin-left: 71px;
+        }
+
+        .cards:hover {
+            box-shadow: 2px 2px 10px black;
+        }
+
+        .cardline2 {
+            margin-left: 71px;
+        }
+
+        .image img {
+            width: 100%;
+            border-top-left-radius: 10px;
+            border-top-right-radius: 10px;
+        }
+
+        .title {
+            text-align: center;
+
+        }
+
+        .description {
+            text-align: center;
+            margin-top: 10px;
+        }
+
+        .description button {
+            margin-top: 12px;
+            margin-bottom: 28px;
+            background-color: white;
+            padding: 10px;
+            border-radius: 50px;
+            cursor: pointer;
+
+
+        }
+
+        .description button:hover {
+            background-color: black;
+            color: white;
+            transition: 0.5s;
+        }
+
+
+        .packages {
+            text-align: center;
+            font-size: 60px;
+            margin-top: 57px;
+            margin-bottom: 51px;
+        }
+
+        .about {
+            background-color: #333;
+            color: white;
+            margin-bottom: -52px;
+            margin-top: 100px;
+        }
+
+        .about-us {
+            margin-top: -2px;
+            display: inline-block;
+            padding: 18px 100px;
+
+        }
+
+        .about-us h1 {
+            margin-top: 10px;
+            font-size: 30px;
+        }
+
+        .about-us a {
+            text-decoration: none;
+        }
+
+        .line {
+            color: white;
+        }
+
+        .end {
+            text-align: center;
+        }
+
+        .text {
+            display: inline-block;
+            margin-bottom: 20px;
+            font-size: 19px;
+
+
+        }
+
+        .clr {
+            color: aqua;
+        }
+
+        .servi {
+            text-align: center;
+            font-size: 60px;
+            margin-top: 57px;
+            margin-bottom: 51px;
+        }
+
+
+        .cards111 {
+            display: inline-block;
+            height: 6cm;
+            width: 12%;
+            border-radius: 10px;
+            margin: 32px;
+
+        }
+
+        .cards111:hover {
+            box-shadow: 2px 2px 10px black;
+
+        }
+
+        .cardline111 {
+            margin-left: 17px;
+        }
+
+
+        .image111 {
+            font-size: 50px;
+            text-align: center;
+
+        }
+
+        .title111 {
+            text-align: center;
+            font-size: 10px;
+
+        }
+
+        .description111 {
+            text-align: center;
+            margin-top: 10px;
+        }
+
+        .hello {
+            z-index: 100;
+        }
+
+        .form #place {
+            width: 50%;
+
+        }
+
+        .form #count {
+            width: 50%;
+
+        }
+
+        .form #email {
+            width: 50%;
+
+        }
+
+
+
+
+
+        .review {
+            text-align: center;
+            font-size: 60px;
+            margin-top: 10px;
+            margin-bottom: 51px;
+
+        }
+
+        .cards33 {
+            display: inline-block;
+            height: 10cm;
+            width: 21%;
+
+            margin: 19px;
+            box-shadow: 2px 2px 10px black;
+        }
+
+
+
+        .cardline233 {
+            margin-left: 71px;
+        }
+
+        .image33 img {
+            margin-top: 30px;
+            margin-left: 74px;
+            height: 131px;
+            width: 45%;
+            border-radius: 63%;
+        }
+
+        .title33 {
+            margin-top: 12px;
+            text-align: center;
+
+        }
+
+        .title33 h1 {
+            font-size: 25px;
+
+        }
+
+
+        .description33 {
+            text-align: center;
+            margin-top: 10px;
+        }
+
+        .star img {
+            margin-top: 12px;
+            margin-bottom: 28px;
+            margin-left: 72px;
+
+        }
+
+
+
+
+        .login-form-container{
+            position: fixed;
+            top: -120%;left: 0;
+            z-index: 10000;
+            min-height: 100vh;
+            width: 100%;
+            background: black;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .login-form-container form{
+            margin: 2rem;
+            padding: 1.5rem 2rem;
+            border-radius: 0.5rem;
+            background: white;
+            width: 50rem;
+        }
+
+        .login-form-container form h3{
+            font-size: 3rem;
+            color: #444;
+            text-transform: uppercase;
+            text-align: center;
+            padding: 1rem 0;
+        }
+        .login-form-container form .box{
+            width: 100%;
+            padding: 1rem;
+            font-size: 1.7rem;
+            color: #333;
+            margin: 0.6rem 0;
+            border: 0.1rem solid black;
+            text-transform: none;
+        }
+
+        .login-form-container form .box:focus{
+            border-color: aqua;
+        }
+
+        .login-form-container form #remember{
+            margin:2rem 0;
+        }
+
+        .login-form-container form label{
+            font-size:1.5rem ;
+        }
+        .btn9{
+            display: inline-block;
+            margin-top: 1rem;
+            background: var(--orange);
+            color: white;
+            padding: 0.8rem 3rem;
+            border: 0.2rem solid var(--orange);
+            cursor: pointer;
+            font-size: 1.5rem;
+        }
+
+        .btn9:hover{
+            background-color: aqua;
+            color: black;
+            
+        }
+
+        .login-form-container form .btn9{
+            display:block ;
+            width: 100%;
+        }
+
+        .login-form-container form p{
+            padding: 0.5rem 0;
+            font-size: 1.5rem;
+            color: #666;
+        }
+        .login-form-container form p a{
+            color: orange;
+        }
+
+        .login-form-container form p a :hover{
+            color: #333;
+            text-decoration: underline;
+
+        }
+
+        .login-form-container #form-close{
+            position: absolute;
+            top: 2rem;
+            right: 3rem;
+            font-size: 5rem;
+            color: white;
+            cursor: pointer;
+            
+        }
+
+        .login-form-container .active{
+            top: 0;
+
+        }
+
+
+    </style>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
+        integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+    <link rel="stylesheet" href="bootstrap-4.0.0-dist/css/bootstrap.min.css">
+</head>
+
+<body>
+    <header>
+        <div class="nav">
+            <div class="line">
+                <div class="fun">
+                    <div class="gun">
+                        <div class="bun">
+                            <h1>T</h1>
+                        </div>
+                    </div>
+                    <div class="gun">
+                        ravel
+                    </div>
+
+                </div>
+            </div>
+            <div class="line">
+                <nav class="navigation">
+
+
+                    <a href="#">home</a>
+                    <a href="#">login</a>
+                    <a href="#">Booking</a>
+                    <a href="#">gallery</a>
+                    <a href="#">contact</a>
+                    <a href="#">about</a>
+
+
+                </nav>
+                
+            </div>
+            <div class="icon">
+                <i class="fas fa-search" id="search-btn"></i>
+                <i class="fas fa-user" id="login-btn"></i>
+
+                
+            </div>
+        </div>
+        <form action="" class="search-bar-container">
+            <input type="search" name="" id="search-bar" placeholder="search here....">
+            <label for="search-bar" class="fas fa-search"></label>
+        </form>
+       
+        <h1 class="mind">
+            DISCOVER <p>The world !!! </p>
+        </h1>
+
+    </header>
+
+    <div class="login-form-container">
+
+        <i class='fa fa-check' id="form-close"></i>
+        <form action="">
+            <h3>login</h3>
+            <input type="email" class="box" placeholder="enter your email">
+            <input type="password" class="box" placeholder="enter your password">
+            <input type="submit" value="login in" class="btn9">
+            <input type="checkbox"  id="remember">
+            <label for="remember"> remember me </label>
+            <p>forget password? <a href="#">click here</a></p>
+            <p>don't have an account? <a href="#">register now</a></p>
+
+        </form>
+
+    </div>
+
+    <script>
+        let searchBtn = Document.querySelector('#search-btn')
+        let searchBar = Document.querySelector('.search-bar-container')
+
+        searchbtn.addEventListener('click', () =>{
+            searchBtn.classList.toggle('fa-times');
+            searchBtn.classList.toggle('active');
+        });
+
+    </script>
+    <!--slider-->
+
+    <div class="slider-box">
+
+        <div id="slider">
+
+
+            <img src="C:\Users\JAY\Desktop\image\33.jpg" alt="img">
+            <img src=C:\Users\JAY\Desktop\image\32.jpg alt="">
+            <img src=C:\Users\JAY\Desktop\image\31.jpg alt="">
+            <img src=C:\Users\JAY\Desktop\image\34.jpg alt="">
+            <h1 class="hello">hi there</h1>
+        </div>
+        <div class="indicator">
+            <span id="btn1"></span>
+            <span id="btn2"></span>
+            <span id="btn3"></span>
+            <span id="btn4"></span>
+
+        </div>
+
+
+    </div>
+    <script>
+        let formBtn = document.querySelector('#login-btn');
+        let loginForm = document.querySelector('.login-form-container');
+        let formClose = document.querySelector('#form-close');
+
+       
+
+        formBtn.addEventListener('click',() =>{
+            loginForm.classList.add('active');
+        });
+
+        formClose.addEventListener('click', () =>{
+            loginForm.classList.remove('active');
+        });
+
+
+
+
+        var slide = document.getElementById("slider");
+        var btn1 = document.getElementById("btn1");
+        var btn2 = document.getElementById("btn2");
+        var btn3 = document.getElementById("btn3");
+        var btn4 = document.getElementById("btn4");
+
+        btn1.onclick = function () {
+            slide.style.transform = "translate(0px)";
+        }
+
+        btn2.onclick = function () {
+            slide.style.transform = "translate(-1520px)";
+        }
+
+        btn3.onclick = function () {
+            slide.style.transform = "translate(-3040px)";
+        }
+
+        btn4.onclick = function () {
+            slide.style.transform = "translate(-4560px)";
+        }
+
+    </script>
+    <!--book now-->
+    <div class="book">
+        <h1 class="book-now">Book Now</h1>
+        <!--book now img-->
+        <img src="C:\Users\JAY\Desktop\61.jpg" alt="img" height="500px" class="book-img">
+        <!--book now form-->
+        <form class="form" action="file:///C:/Users/JAY/Desktop/html/button.html" method="post">
+            <fieldset c>
+                <legend>Booking Details</legend><br>
+                <label for="place">Where To</label>
+                <br>
+                <input type="text" id="place" name="place"><br>
+
+
+                <label for="count">How Many</label>
+                <br>
+                <input type="text " id="count" name="count"><br>
+
+
+                <label for="email">Email</label>
+                <br>
+                <input type="email" name="email" id="email"><br>
+
+
+                <label for="arrival">Arrival</label>
+                <br>
+                <input type="date" name="arrival" id="arrival"><br>
+
+                <label for="leave">Laeve</label>
+                <br>
+                <input type="date" name="leave" id="leave"><br><br>
+
+                <input type="submit" value="book now">
+            </fieldset>
+        </form>
+    </div>
+
+    <!--  cards  -->
+
+    <h1 class="packages"> packages</h1>
+    <div class="cardline">
+        <!--1st cad-->
+        <div class="cards">
+            <div class="image">
+                <img src="C:\Users\JAY\Desktop\70.jpg" alt="">
+            </div>
+            <div class="title">
+                <h1>title name</h1>
+            </div>
+            <div class="description">
+                <p>information about this card is mentioned here ....</p>
+                <button>read more....</button>
+            </div>
+        </div>
+
+        <!--2nd cad-->
+
+        <div class="cards">
+            <div class="image">
+                <img src="C:\Users\JAY\Desktop\11.jpg" alt="">
+            </div>
+            <div class="title">
+                <h1>title name</h1>
+            </div>
+            <div class="description">
+                <p>information about this card is mentioned here ....</p>
+                <button>read more....</button>
+            </div>
+        </div>
+        <!--3rd cad-->
+
+        <div class="cards">
+            <div class="image">
+                <img src="C:\Users\JAY\Desktop\92.jpg" alt="">
+            </div>
+            <div class="title">
+                <h1>title name</h1>
+            </div>
+            <div class="description">
+                <p>information about this card is mentioned here ....</p>
+                <button>read more....</button>
+            </div>
+        </div>
+        <!--4th cad-->
+
+        <div class="cards">
+            <div class="image">
+                <img src="C:\Users\JAY\Desktop\71.jpg" alt="">
+            </div>
+            <div class="title">
+                <h1>title name</h1>
+            </div>
+            <div class="description">
+                <p>information about this card is mentioned here ....</p>
+                <button>read more....</button>
+            </div>
+        </div>
+
+    </div>
+    <!--cardline 2-->
+
+    <div class="cardline2">
+        <!--1st cad-->
+
+        <div class="cards">
+            <div class="image">
+                <img src="C:\Users\JAY\Desktop\11.jpg" alt="" height="235px">
+            </div>
+            <div class="title">
+                <h1>title name</h1>
+            </div>
+            <div class="description">
+                <p>information about this card is mentioned here ....</p>
+                <button>read more....</button>
+            </div>
+        </div>
+
+        <!--2nd cad-->
+
+
+        <div class="cards">
+            <div class="image">
+                <img src="C:\Users\JAY\Desktop\72.jpg" alt="" height="235px">
+            </div>
+            <div class="title">
+                <h1>title name</h1>
+            </div>
+            <div class="description">
+                <p>information about this card is mentioned here ....</p>
+                <button>read more....</button>
+            </div>
+        </div>
+        <!--3rd cad-->
+
+        <div class="cards">
+            <div class="image">
+                <img src="C:\Users\JAY\Desktop\73.jpg" alt="" height="235px">
+            </div>
+            <div class="title">
+                <h1>title name</h1>
+            </div>
+            <div class="description">
+                <p>information about this card is mentioned here ....</p>
+                <button>read more....</button>
+            </div>
+        </div>
+        <!--4th cad-->
+
+        <div class="cards">
+            <div class="image">
+                <img src="C:\Users\JAY\Desktop\74.jpg" alt="" height="235px">
+            </div>
+            <div class="title">
+                <h1>title name</h1>
+            </div>
+            <div class="description">
+                <p>information about this card is mentioned here ....</p>
+                <button>read more....</button>
+            </div>
+        </div>
+
+    </div>
+
+    <!--services-->
+    <h1 class="servi"> services</h1>
+    <div class="cardline111"></div>
+
+    <a href="#">
+
+        <div class="cards111">
+            <div class="image111">
+                <i class='fa fa-building'></i>
+            </div>
+            <div class="title111">
+                <h4>Affordable </h4>
+                <h4>hotels</h4>
+            </div>
+            <div class="description111">
+                <p>information about this card is mentioned here ....</p>
+            </div>
+        </div>
+    </a>
+
+    <a href="#">
+        <div class="cards111">
+            <div class="image111">
+                <i class='fa fa-comments'></i>
+            </div>
+            <div class="title111">
+                <h4>food and </h4>
+                <h4>drinks</h4>
+            </div>
+            <div class="description111">
+                <p>information about this card is mentioned here ....</p>
+            </div>
+        </div>
+    </a>
+    <a href="#">
+        <div class="cards111">
+            <div class="image111">
+                <i class='fa fa-bullhorn'></i>
+            </div>
+            <div class="title111">
+                <h4>Safty </h4>
+                <h4>guid</h4>
+            </div>
+            <div class="description111">
+                <p>information about this card is mentioned here ....</p>
+            </div>
+        </div>
+    </a>
+
+
+    <a href="#">
+        <div class="cards111">
+            <div class="image111">
+                <i class='fa fa-globe'></i>
+            </div>
+            <div class="title111">
+                <h4>Around the </h4>
+                <h4>world</h4>
+            </div>
+            <div class="description111">
+                <p>information about this card is mentioned here ....</p>
+            </div>
+        </div>
+    </a>
+
+
+    <a href="#">
+        <div class="cards111">
+            <div class="image111">
+
+                <i class='fas fa-plane-departure'></i>
+            </div>
+            <div class="title111">
+                <h4>Fastest </h4>
+                <h4>Travel</h4>
+            </div>
+            <div class="description111">
+                <p>information about this card is mentioned here ....</p>
+            </div>
+        </div>
+    </a>
+
+    <a href="#">
+        <div class="cards111">
+            <div class="image111">
+                <i class='fas fa-plane-departure'></i>
+            </div>
+            <div class="title111">
+                <h4>Adventure </h4>
+                <h4>.</h4>
+            </div>
+            <div class="description111">
+                <p>information about this card is mentioned here ....</p>
+            </div>
+        </div>
+    </a>
+
+    </div>
+
+    <!--review-->
+    <h1 class="review">review</h1>
+
+    <div class="cardline233">
+        <!--1st cad-->
+
+        <div class="cards33">
+            <div class="image33">
+                <img src="C:\Users\JAY\Desktop\200.png" alt="">
+            </div>
+            <div class="title33">
+                <h1>harry o'connel</h1>
+            </div>
+            <div class="description33">
+                <p>information about this card is mentioned here ....</p>
+            </div>
+            <div class="star">
+                <img src="C:\Users\JAY\Desktop\301.png" alt="" height="45px">
+            </div>
+        </div>
+
+        <!--2nd cad-->
+
+
+        <div class="cards33">
+            <div class="image33">
+                <img src="C:\Users\JAY\Desktop\202.jpg" alt="">
+            </div>
+            <div class="title33">
+                <h1>megan wyan</h1>
+            </div>
+            <div class="description33">
+                <p>information about this card is mentioned here ....</p>
+            </div>
+            <div class="star">
+                <img src="C:\Users\JAY\Desktop\301.png" alt="" height="45px">
+            </div>
+        </div>
+        <!--3rd cad-->
+
+        <div class="cards33">
+            <div class="image33">
+                <img src="C:\Users\JAY\Desktop\205.webp" alt="">
+            </div>
+            <div class="title33">
+                <h1>sam carter</h1>
+            </div>
+            <div class="description33">
+                <p>information about this card is mentioned here ....</p>
+            </div>
+            <div class="star">
+                <img src="C:\Users\JAY\Desktop\301.png" alt="" height="45px">
+            </div>
+        </div>
+        <!--4th cad-->
+
+        <div class="cards33">
+            <div class="image33">
+                <img src="C:\Users\JAY\Desktop\201.jpg" alt="">
+            </div>
+            <div class="title33">
+                <h1>emmily johnson </h1>
+            </div>
+            <div class="description33">
+                <p>information about this card is mentioned here ....</p>
+            </div>
+            <div class="star">
+                <img src="C:\Users\JAY\Desktop\301.png" alt="" height="45px">
+            </div>
+        </div>
+
+    </div>
+
+    <!--about us-->
+
+    <div class="about">
+        <div class="about-us">
+            <h1>About Us</h1><br>
+            <p>sdshfljadsh;fa;dghalhgli <br>
+                falsdfas;dig;sia;gskj;fk <br>
+                j;ofija;sjfa;jsdofij;oai <br>
+                ldjghlsaiuhgliauhsfsahld <br>
+                ufaerlghrtnqerhguierghnd <br>
+                fzngnliruagheriu;se
+            </p>
+        </div>
+        <div class="about-us">
+            <h1>Branch Location</h1><br>
+            <a href="#">India</a><br>
+            <a href="#">USA</a><br>
+            <a href="#">japan</a><br>
+            <a href="#">France</a><br>
+            <a href="#">UK</a><br>
+            <a href="#">Singapore</a><br>
+        </div>
+
+        <div class="about-us">
+            <h1>Quick links</h1><br>
+            <a href="#">home</a><br>
+            <a href="#">login</a><br>
+            <a href="#">Booking</a><br>
+            <a href="#">gallery</a><br>
+            <a href="#">contact</a><br>
+            <a href="#">about</a>
+        </div>
+
+        <div class="about-us">
+            <h1>Follow Us</h1><br>
+            <a href="#">FaceBook</a><br>
+            <a href="#">Instagram</a><br>
+            <a href="#">Twitter</a><br>
+            <a href="#">Linkdin</a><br><br><br>
+
+        </div>
+
+
+
+
+        <!--last line-->
+
+        <hr class="line">
+
+        <div class="end">
+            <div class="text">
+                Created By
+            </div>
+            <div class="text">
+                <div class="clr">
+                    JayS
+                </div>
+            </div>
+            <div class="text">
+                | All rights reserved
+            </div>
+        </div>
+
+    </div>
+
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
